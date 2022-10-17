@@ -1,2 +1,2 @@
 # Traffic
-This is an AI that identifies which traffic sigh appears in a photograph.
+This is an AI written in Python that identifies which traffic sigh appears in a photograph. First please run "pip3 install -r requirements.txt" to install this project’s dependencies: opencv-python for image processing, scikit-learn for ML-related functions, and tensorflow for neural networks, and this process may take a while so please be patient. Then run "python3 traffic.py gtsrb" to observe the output. You can change the parameters of Dence function and Conv2D function under the function of get_model to see how loss and accuracy changes. I hope you like my code, and if you do enjoy it, please follow me on GitHub, thanks so much!
